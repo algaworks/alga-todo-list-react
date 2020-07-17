@@ -1,0 +1,49 @@
+.List {
+  margin: 20px;
+}
+
+.ListHeader {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #2A3990;
+  padding: 0 20px;
+  color: #ffffff;
+}
+
+.ListItem {
+  background-color: #F06292;
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.ListItem span {
+  flex-grow: 1;
+}
+
+.AddMore {
+  background-color: #2A3990;
+  padding: 20px;
+  display: flex;
+}
+
+.AddMore input {
+  border: none;
+  background-color: #ffffff;
+  padding: 7px;
+  border-radius: 0;
+  flex-grow: 1;
+  font-size: 1em;
+  height: 40px;
+}
+
+.AddMore button {
+  background-color: #F06292;
+  color: #ffffff;
+  padding: 5px;
+  border: none;
+  border-radius: 0;
+  font-size: 1em;
+}
