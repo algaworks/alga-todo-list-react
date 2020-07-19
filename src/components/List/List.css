@@ -1,18 +1,20 @@
 .List {
-  margin: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,.3);
 }
 
 .ListHeader {
   display: flex;
   align-items: center;
   height: 60px;
-  background-color: #2A3990;
+  background-image: linear-gradient(to bottom right, rgba(43, 54, 119, .5), rgba(54, 74, 189, .5));
   padding: 0 20px;
   color: #ffffff;
 }
 
 .ListItem {
-  background-color: #F06292;
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   min-height: 40px;
   align-items: center;
@@ -24,14 +26,14 @@
 }
 
 .AddMore {
-  background-color: #2A3990;
+  background-color: rgba(42, 57, 144, .5);
   padding: 20px;
   display: flex;
 }
 
 .AddMore input {
   border: none;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, .5);
   padding: 7px;
   border-radius: 0;
   flex-grow: 1;
@@ -39,10 +41,21 @@
   height: 40px;
 }
 
+.AddMore input::placeholder {
+  color: #222;
+}
+
+.AddMore input:focus {
+  background-color: #ffffff;
+  border-radius: 0;
+  outline: none;
+}
+
 .AddMore button {
-  background-color: #F06292;
+  background-color: rgba(42, 57, 144, .5);
   color: #ffffff;
-  padding: 5px;
+  padding: 5px 10px;
+  font-weight: 400;
   border: none;
   border-radius: 0;
   font-size: 1em;
