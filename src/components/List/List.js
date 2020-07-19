@@ -43,7 +43,7 @@ function List ({ title, items, onToggle, onAdd }) {
               }
             }}
           >
-            Adicionar
+            Add
           </button>
         </div>
       </div>
